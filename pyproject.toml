@@ -1,0 +1,25 @@
+[project]
+name = "netflix-dataset-cleaning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Antoniofanomezantsoa", email = "206472452+Antoniofanomezantsoa@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.6.4",
+    "kaggle>=2.2.4",
+    "marimo>=0.25.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+netflix-dataset-cleaning = "netflix_dataset_cleaning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
