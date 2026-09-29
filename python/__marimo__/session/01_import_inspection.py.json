@@ -1,0 +1,367 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nIVz",
+      "code_hash": "0d99242b37a50832c39fbdbdb745a9d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YbJR",
+      "code_hash": "46258f6d46f0d3be73a197479eb7631a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qgaK",
+      "code_hash": "2400be10330dac0ef79a0b7fca4b57ee",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pMHY",
+      "code_hash": "862379698a9bb885f151744028ec983a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[8807, 12]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ChDr",
+      "code_hash": "ea2f218e1a37c8319a4887e8c12ab9cb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ChDr-0' random-id='5844f51b-cba8-eae4-57af-f34878f316df'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;show_id&#92;&quot;:&#92;&quot;s1&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Dick Johnson Is Dead&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Kirsten Johnson&#92;&quot;,&#92;&quot;cast&#92;&quot;:NaN,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 25, 2021&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2020,&#92;&quot;rating&#92;&quot;:&#92;&quot;PG-13&#92;&quot;,&#92;&quot;duration&#92;&quot;:&#92;&quot;90 min&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Documentaries&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable.&#92;&quot;},{&#92;&quot;show_id&#92;&quot;:&#92;&quot;s2&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;TV Show&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Blood &amp; Water&#92;&quot;,&#92;&quot;director&#92;&quot;:NaN,&#92;&quot;cast&#92;&quot;:&#92;&quot;Ama Qamata, Khosi Ngema, Gail Mabalane, Thabang Molaba, Dillon Windvogel, Natasha Thahane, Arno Greeff, Xolile Tshabalala, Getmore Sithole, Cindy Mahlangu, Ryle De Morny, Greteli Fincham, Sello Maake Ka-Ncube, Odwa Gwanya, Mekaila Mathys, Sandi Schultz, Duane Williams, Shamilla Miller, Patrick Mofokeng&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;South Africa&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 24, 2021&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2021,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;duration&#92;&quot;:&#92;&quot;2 Seasons&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;International TV Shows, TV Dramas, TV Mysteries&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;After crossing paths at a party, a Cape Town teen sets out to prove whether a private-school swimming star is her sister who was abducted at birth.&#92;&quot;},{&#92;&quot;show_id&#92;&quot;:&#92;&quot;s3&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;TV Show&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Ganglands&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Julien Leclercq&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabiha Akkari, Sofia Lesaffre, Salim Kechiouche, Noureddine Farihi, Geert Van Rampelberg, Bakary Diombera&#92;&quot;,&#92;&quot;country&#92;&quot;:NaN,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 24, 2021&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2021,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;duration&#92;&quot;:&#92;&quot;1 Season&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Crime TV Shows, International TV Shows, TV Action &amp; Adventure&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;To protect his family from a powerful drug lord, skilled thief Mehdi and his expert team of robbers are pulled into a violent and deadly turf war.&#92;&quot;},{&#92;&quot;show_id&#92;&quot;:&#92;&quot;s4&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;TV Show&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Jailbirds New Orleans&#92;&quot;,&#92;&quot;director&#92;&quot;:NaN,&#92;&quot;cast&#92;&quot;:NaN,&#92;&quot;country&#92;&quot;:NaN,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 24, 2021&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2021,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;duration&#92;&quot;:&#92;&quot;1 Season&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Docuseries, Reality TV&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;Feuds, flirtations and toilet talk go down among the incarcerated women at the Orleans Justice Center in New Orleans on this gritty reality series.&#92;&quot;},{&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;TV Show&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Kota Factory&#92;&quot;,&#92;&quot;director&#92;&quot;:NaN,&#92;&quot;cast&#92;&quot;:&#92;&quot;Mayur More, Jitendra Kumar, Ranjan Raj, Alam Khan, Ahsaas Channa, Revathi Pillai, Urvi Singh, Arun Kumar&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;India&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 24, 2021&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2021,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;duration&#92;&quot;:&#92;&quot;2 Seasons&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;International TV Shows, Romantic TV Shows, TV Comedies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;In a city of coaching centers known to train India&#92;&#92;u2019s finest collegiate minds, an earnest but unexceptional student and his friends navigate campus life.&#92;&quot;}]&quot;' data-total-rows='5' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;show_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;director&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;cast&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;date_added&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;release_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;duration&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;listed_in&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;description&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "svyV",
+      "code_hash": "8a3711f95e13d089a912327ed7e4bb63",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='svyV-0' random-id='20338db4-bd00-4c10-a28b-0ed5ad9e1cd8'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;show_id&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;title&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;director&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;cast&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;country&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;date_added&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;release_year&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;int64&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;rating&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;duration&#92;&quot;,&#92;&quot;type&#92;&quot;:{&#92;&quot;_storage&#92;&quot;:&#92;&quot;python&#92;&quot;,&#92;&quot;_na_value&#92;&quot;:NaN}}]&quot;' data-total-rows='12' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;type&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jzVM",
+      "code_hash": "9833b7fe9bd8400be29a175708a281f8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "<class 'pandas.DataFrame'>\nRangeIndex: 8807 entries, 0 to 8806\nData columns (total 12 columns):\n #   Column        Non-Null Count  Dtype\n---  ------        --------------  -----\n 0   show_id       8807 non-null   str  \n 1   type          8807 non-null   str  \n 2   title         8807 non-null   str  \n 3   director      6173 non-null   str  \n 4   cast          7982 non-null   str  \n 5   country       7976 non-null   str  \n 6   date_added    8797 non-null   str  \n 7   release_year  8807 non-null   int64\n 8   rating        8803 non-null   str  \n 9   duration      8804 non-null   str  \n 10  listed_in     8807 non-null   str  \n 11  description   8807 non-null   str  \ndtypes: int64(1), str(11)\nmemory usage: 825.8 KB\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "mvWz",
+      "code_hash": "ac74b2bfcc12f62b7bfec854aa0cc4f7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='mvWz-0' random-id='31cc623e-de85-1066-d74a-431d5e22061a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;director&#92;&quot;,&#92;&quot;manquants&#92;&quot;:2634},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;country&#92;&quot;,&#92;&quot;manquants&#92;&quot;:831},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;cast&#92;&quot;,&#92;&quot;manquants&#92;&quot;:825},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;date_added&#92;&quot;,&#92;&quot;manquants&#92;&quot;:10},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;rating&#92;&quot;,&#92;&quot;manquants&#92;&quot;:4},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;duration&#92;&quot;,&#92;&quot;manquants&#92;&quot;:3},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;show_id&#92;&quot;,&#92;&quot;manquants&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;manquants&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;title&#92;&quot;,&#92;&quot;manquants&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;release_year&#92;&quot;,&#92;&quot;manquants&#92;&quot;:0}]&quot;' data-total-rows='12' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;manquants&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ciGh",
+      "code_hash": "45edeb7afc20292e60e600274138636a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.int64(0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xaeK",
+      "code_hash": "40b641ec734f2395c0b7d94e8642812a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='xaeK-0' random-id='aba3ca25-5f91-f252-1534-f3325df174a8'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;show_id&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:8807},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:2},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;title&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:8807},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;director&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:4528},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;cast&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:7692},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;country&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:748},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;date_added&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:1767},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;release_year&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:74},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;rating&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:17},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;duration&#92;&quot;,&#92;&quot;valeurs_uniques&#92;&quot;:220}]&quot;' data-total-rows='12' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;valeurs_uniques&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fkaF",
+      "code_hash": "913aa0c03d38e22227284cba505924e0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='fkaF-0' random-id='5a36758b-502a-ddec-077c-d24cc02817ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;count&#92;&quot;:3207},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-14&#92;&quot;,&#92;&quot;count&#92;&quot;:2160},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-PG&#92;&quot;,&#92;&quot;count&#92;&quot;:863},{&#92;&quot;rating&#92;&quot;:&#92;&quot;R&#92;&quot;,&#92;&quot;count&#92;&quot;:799},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG-13&#92;&quot;,&#92;&quot;count&#92;&quot;:490},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y7&#92;&quot;,&#92;&quot;count&#92;&quot;:334},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y&#92;&quot;,&#92;&quot;count&#92;&quot;:307},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG&#92;&quot;,&#92;&quot;count&#92;&quot;:287},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-G&#92;&quot;,&#92;&quot;count&#92;&quot;:220},{&#92;&quot;rating&#92;&quot;:&#92;&quot;NR&#92;&quot;,&#92;&quot;count&#92;&quot;:80}]&quot;' data-total-rows='17' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "FwxP",
+      "code_hash": "aa71d7d53635bf9f99ac6e93b3b5666b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"September 25, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\", \"September 24, 2021\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BbBF",
+      "code_hash": "a418a0ecd943fd59327a65ff6e66257a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='BbBF-0' random-id='c311b7a2-bd00-bd89-6716-99c79d07a814'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;count&#92;&quot;:6131},{&#92;&quot;type&#92;&quot;:&#92;&quot;TV Show&#92;&quot;,&#92;&quot;count&#92;&quot;:2676}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "QVrD",
+      "code_hash": "bf3c0565ab92103c34087c93bf2bff03",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='QVrD-0' random-id='7a01ca54-e71e-30a6-2c38-77790b27db3f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;count&#92;&quot;:3207},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-14&#92;&quot;,&#92;&quot;count&#92;&quot;:2160},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-PG&#92;&quot;,&#92;&quot;count&#92;&quot;:863},{&#92;&quot;rating&#92;&quot;:&#92;&quot;R&#92;&quot;,&#92;&quot;count&#92;&quot;:799},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG-13&#92;&quot;,&#92;&quot;count&#92;&quot;:490},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y7&#92;&quot;,&#92;&quot;count&#92;&quot;:334},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y&#92;&quot;,&#92;&quot;count&#92;&quot;:307},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG&#92;&quot;,&#92;&quot;count&#92;&quot;:287},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-G&#92;&quot;,&#92;&quot;count&#92;&quot;:220},{&#92;&quot;rating&#92;&quot;:&#92;&quot;NR&#92;&quot;,&#92;&quot;count&#92;&quot;:80}]&quot;' data-total-rows='18' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aZAd",
+      "code_hash": "e83868825d3667df1552549d3381b6e3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='aZAd-0' random-id='1139d938-6ea4-5527-66a8-ec6ac4aabdee'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:5541,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5542&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K. 2017&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;April 4, 2017&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2017,&#92;&quot;rating&#92;&quot;:&#92;&quot;74 min&#92;&quot;,&#92;&quot;duration&#92;&quot;:NaN,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;Louis C.K. muses on religion, eternal love, giving dogs drugs, email fights, teachers and more in a live performance from Washington, D.C.&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:5794,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5795&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K.: Hilarious&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 16, 2016&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2010,&#92;&quot;rating&#92;&quot;:&#92;&quot;84 min&#92;&quot;,&#92;&quot;duration&#92;&quot;:NaN,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;Emmy-winning comedy writer Louis C.K. brings his caustic wit to Milwaukee, offering up his unique and uncensored take on sex, parenting and more.&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:5813,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5814&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K.: Live at the Comedy Store&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;August 15, 2016&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2015,&#92;&quot;rating&#92;&quot;:&#92;&quot;66 min&#92;&quot;,&#92;&quot;duration&#92;&quot;:NaN,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;The comic puts his trademark hilarious/thought-provoking spin on finding a bat in his kitchen, seeing rats having sex, Boston accents and dead pets.&#92;&quot;}]&quot;' data-total-rows='3' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;show_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;director&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;cast&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;date_added&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;release_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;duration&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;listed_in&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;description&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OoKp",
+      "code_hash": "6f3bc1d6bb54daf6d86c398d82b7b177",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='OoKp-0' random-id='f8f1fa73-a52c-4fdf-d071-295ba492e2d6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;rating&#92;&quot;:false,&#92;&quot;count&#92;&quot;:8804},{&#92;&quot;rating&#92;&quot;:true,&#92;&quot;count&#92;&quot;:3}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;rating&quot;,[&quot;boolean&quot;,&quot;bool&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RHla",
+      "code_hash": "c1e57108b3d17caf2935edeaf55d00a2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DDiV",
+      "code_hash": "80533df3aa47d46d82cd05e963f3be6f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='DDiV-0' random-id='88c53730-d890-690a-20bb-88078dd844f9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:5541,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5542&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K. 2017&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;April 4, 2017&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2017,&#92;&quot;rating&#92;&quot;:NaN,&#92;&quot;duration&#92;&quot;:&#92;&quot;74 min&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;Louis C.K. muses on religion, eternal love, giving dogs drugs, email fights, teachers and more in a live performance from Washington, D.C.&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:5794,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5795&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K.: Hilarious&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;September 16, 2016&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2010,&#92;&quot;rating&#92;&quot;:NaN,&#92;&quot;duration&#92;&quot;:&#92;&quot;84 min&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;Emmy-winning comedy writer Louis C.K. brings his caustic wit to Milwaukee, offering up his unique and uncensored take on sex, parenting and more.&#92;&quot;},{&#92;&quot;Index0&#92;&quot;:5813,&#92;&quot;show_id&#92;&quot;:&#92;&quot;s5814&#92;&quot;,&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Louis C.K.: Live at the Comedy Store&#92;&quot;,&#92;&quot;director&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;cast&#92;&quot;:&#92;&quot;Louis C.K.&#92;&quot;,&#92;&quot;country&#92;&quot;:&#92;&quot;United States&#92;&quot;,&#92;&quot;date_added&#92;&quot;:&#92;&quot;August 15, 2016&#92;&quot;,&#92;&quot;release_year&#92;&quot;:2015,&#92;&quot;rating&#92;&quot;:NaN,&#92;&quot;duration&#92;&quot;:&#92;&quot;66 min&#92;&quot;,&#92;&quot;listed_in&#92;&quot;:&#92;&quot;Movies&#92;&quot;,&#92;&quot;description&#92;&quot;:&#92;&quot;The comic puts his trademark hilarious/thought-provoking spin on finding a bat in his kitchen, seeing rats having sex, Boston accents and dead pets.&#92;&quot;}]&quot;' data-total-rows='3' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;show_id&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;director&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;cast&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;date_added&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;release_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;duration&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;listed_in&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;description&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lsTh",
+      "code_hash": "bf3c0565ab92103c34087c93bf2bff03",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lsTh-0' random-id='d6dfae5f-9b28-7fd0-11da-8003a09b4600'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;count&#92;&quot;:3207},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-14&#92;&quot;,&#92;&quot;count&#92;&quot;:2160},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-PG&#92;&quot;,&#92;&quot;count&#92;&quot;:863},{&#92;&quot;rating&#92;&quot;:&#92;&quot;R&#92;&quot;,&#92;&quot;count&#92;&quot;:799},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG-13&#92;&quot;,&#92;&quot;count&#92;&quot;:490},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y7&#92;&quot;,&#92;&quot;count&#92;&quot;:334},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y&#92;&quot;,&#92;&quot;count&#92;&quot;:307},{&#92;&quot;rating&#92;&quot;:&#92;&quot;PG&#92;&quot;,&#92;&quot;count&#92;&quot;:287},{&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-G&#92;&quot;,&#92;&quot;count&#92;&quot;:220},{&#92;&quot;rating&#92;&quot;:&#92;&quot;NR&#92;&quot;,&#92;&quot;count&#92;&quot;:80}]&quot;' data-total-rows='15' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "FQId",
+      "code_hash": "e177b0bc5b1029285f0e9e90c064b2c1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='FQId-0' random-id='863849ef-57b4-00a7-f342-76713b380d3a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-MA&#92;&quot;,&#92;&quot;count&#92;&quot;:2062},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-14&#92;&quot;,&#92;&quot;count&#92;&quot;:1427},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;R&#92;&quot;,&#92;&quot;count&#92;&quot;:797},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-PG&#92;&quot;,&#92;&quot;count&#92;&quot;:540},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;PG-13&#92;&quot;,&#92;&quot;count&#92;&quot;:490},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;PG&#92;&quot;,&#92;&quot;count&#92;&quot;:287},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y7&#92;&quot;,&#92;&quot;count&#92;&quot;:139},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-Y&#92;&quot;,&#92;&quot;count&#92;&quot;:131},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;TV-G&#92;&quot;,&#92;&quot;count&#92;&quot;:126},{&#92;&quot;type&#92;&quot;:&#92;&quot;Movie&#92;&quot;,&#92;&quot;rating&#92;&quot;:&#92;&quot;NR&#92;&quot;,&#92;&quot;count&#92;&quot;:75}]&quot;' data-total-rows='23' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;rating&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kMWs",
+      "code_hash": "63fba1872a0876f297428115fbf87eec",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OUJt",
+      "code_hash": "39d4a2b64f10c8dc7f425e6bf2afe9c7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.int64(0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "akkz",
+      "code_hash": "a1e00d4b57e3c17c8c5ac31aee7f283c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='akkz-0' random-id='ec2a134e-ae91-432b-e95a-9722de2460ff'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;show_id&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;type&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;title&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;director&#92;&quot;,&#92;&quot;value&#92;&quot;:2634},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;cast&#92;&quot;,&#92;&quot;value&#92;&quot;:825},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;country&#92;&quot;,&#92;&quot;value&#92;&quot;:831},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;date_added&#92;&quot;,&#92;&quot;value&#92;&quot;:10},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;release_year&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;rating&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;duration&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='12' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "obth",
+      "code_hash": "3e246ae97704f58a36bbda74656c19b7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WiMy",
+      "code_hash": "cfc7c1e5d47d8464b0f8d489310c0d7c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='WiMy-0' random-id='850429dc-7d93-0ad9-6e9e-2e0ba88ce5bc'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;director&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;cast&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;country&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='3' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LarA",
+      "code_hash": "30abcd8d61df1516d73328cb3fcf5d0c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/plain:2634\", \"text/plain:352\"]"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
